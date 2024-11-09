@@ -1,0 +1,26 @@
+/* /src/styles/main.scss */
+
+// Variables
+$primary-color: #333;
+$accent-color: #ffcc00;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: $primary-color;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
