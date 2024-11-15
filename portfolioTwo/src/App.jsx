@@ -1,30 +1,24 @@
 // src/App.jsx
 import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import TopAppBar from './components/TopAppBar';
-import './App.css';
+import TopicPage from "./components/TopicPage";
+import Home from './components/Home';
+import About from './components/About';
+
+import groupProjectsByTopic from './utils/GroupProjectsByTopic';
+import projects from './data/simpleProjects.json';
 
 const App = () => {
+  const groupedProjects = groupProjectsByTopic(projects);
+
   return (
-    <div className="App">
-      <TopAppBar />
-      <main className="main-content">
-        <section className="home-section">
-          <h1>Welcome to My Portfolio</h1>
-        </section>
-        <section className="about-section">
-          <h2>About Me</h2>
-          <p>Some information about me...</p>
-        </section>
-        <section className="projects-section">
-          <h2>My Projects</h2>
-          <p>Some of my cool projects...</p>
-        </section>
-        <section className="contact-section">
-          <h2>Contact</h2>
-          <p>How to get in touch...</p>
-        </section>
-      </main>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home groupedProjects={groupedProjects} />} />
+        <Route path="/topic/:topicName" element={<TopicPage groupedProjects={groupedProjects} />} />
+      </Routes>
+    </Router>
   );
 };
 

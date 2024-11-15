@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "MUSIC & ART THERAPY",
+      "projectType": "THESIS",
+      "year": "2024",
+      "topics": ["Apple", "Orange"],
+      "video": "https://www.youtube.com/embed/QRWjeqrhi9Y?si=yZgF6-dcdoohF0Xd",
+      "description": [
+      "My current thesis at I3Lab in Music & Art Therapy Activity in Augmented Reality for people with neurodevelopmental conditions. The projects research questions focus on emotional regulation, sustained & selective attention, and engagement through performance.",
+      "Using the Hololens 2, users are able to draw in their environment in 3D, while also creating an abstract musical interface through their drawings. ",
+      "The project has been co-designed with Fraternità e Amicizia, an arts therapy centre in Milano. User Testing will take place at their three centres in July."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 2,
+      "title": "FUTURE WORLDS",
+      "projectType": "MUSEUM INSTALLATION",
+      "year": "2024",
+      "topics": ["Kiwi", "Apple"],
+      "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
+      "description": [
+      "This project takes data from the World3 model and transforms it to audio visual representation to promote awareness of our control of our planet’s future. ",
+      "The user can select between three different possible outcomes for our planet and explore these through visiting different cities watching our planet blossom or decay.",
+      "Custom Cellulare Automata evolves the planet's landscape based on time series data from the model such as pollution, food, population"
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 3,
+      "title": "HUNT",
+      "projectType": "VIDEO GAME",
+      "year": "2024",
+      "topics": ["Carrot", "Orange"],
+      "image": "./src/images/night_screen.jpeg",
+      "description": [
+      "3D animal hunting game in Vulkan. Custom shaders implementing Blinn-Phong, Oren-Nayar, Normal Mapping and Sky Box techniques",
+      "The goal of the game is to hunt all of the animals inside of the map in the time given. The user is free to roam around the map, trying to find them all and shooting at them with its rifle. Aiming can be done with or without a scope, and during the night a torch can be activated to improve the visibility"
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 4,
+      "title": "PHONE SAMPLER",
+      "projectType": "MOBILE APP",
+      "year": "2024",
+      "topics": ["Carrot", "Apple", "Kiwi"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "PhoneSampler is an Android application that allows users to record audio from other apps in their phones.",
+      "Users can record, browse and edit samples from apps such as Instagram and Youtube",
+      "Integrates with freesound.org API to allow users to upload their samples and browse for new ones directly in the app"
+      ],
+      "bgColor": "colour2"
+    }
+ 
+]

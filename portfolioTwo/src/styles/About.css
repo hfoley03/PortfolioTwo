@@ -1,7 +1,7 @@
 /* src/components/About.css */
 
 /* About section styling */
-.about-section {
+/* .about-section {
     padding: 3rem 2rem;
     background-color: white;
     border-radius: 8px;
@@ -42,7 +42,7 @@
   .about-photo img {
     width: 100%;
     height: auto;
-  }
+  } */
   
   /* Mobile responsiveness */
   @media (max-width: 768px) {
