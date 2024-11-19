@@ -60,7 +60,6 @@ iframe {
   margin-inline: auto;
 }
 
-
 .imgSquare {
   aspect-ratio: 1/1;
 }
@@ -68,6 +67,15 @@ iframe {
 .imgRect {
   aspect-ratio: 19 /6;
 }
+
+.tile, .tileBasic {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #b0b0b0;  
+  box-shadow: 0.5rem 0.75rem 1rem -1rem;
+  /* margin-inline: auto; */
+}
+
 
 
 h1 {

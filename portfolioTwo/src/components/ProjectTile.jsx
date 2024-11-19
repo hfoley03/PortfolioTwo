@@ -33,6 +33,13 @@ const ProjectTile = ({ title, projectType, year, topics, video, image, descripti
                     ))}
                 </ul>
             </div>
+            <div className="tile colour-primary-2">
+                <h2>Thoughts</h2>
+                
+            </div>
+            <div className="tile colour-primary-2">
+                <div>Misc</div>
+            </div>
             <div className="tile colour-primary-1">
                 <h2>Description:</h2> {/* Description */}
                 <p>{description.join(" ")}</p> {/* Join description into a single paragraph */}

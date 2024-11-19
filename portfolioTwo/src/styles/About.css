@@ -45,6 +45,7 @@
   } */
   
   /* Mobile responsiveness */
+  
   @media (max-width: 768px) {
     .about-text {
       font-size: 1rem;

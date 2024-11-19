@@ -14,12 +14,20 @@ const App = () => {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home groupedProjects={groupedProjects} />} />
-        <Route path="/topic/:topicName" element={<TopicPage groupedProjects={groupedProjects} />} />
-      </Routes>
+      <TopAppBar /> {/* Render the top navigation bar */}
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home groupedProjects={groupedProjects} />} />
+          <Route path="/about" element={<About />} />
+          <Route
+            path="/topic/:topicName"
+            element={<TopicPage groupedProjects={groupedProjects} />}
+          />
+        </Routes>
+      </div>
     </Router>
   );
 };
+
 
 export default App;
