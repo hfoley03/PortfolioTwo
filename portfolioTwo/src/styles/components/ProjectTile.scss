@@ -1,3 +1,4 @@
+@import '/src/styles/variables';
 
 .card-grid {
     display: grid;
@@ -5,6 +6,14 @@
     padding-block: 0.5rem;
     margin-inline: auto;
   }
+
+  .tile, .tileBasic {
+    padding: 2rem;
+    // background-color: $background-color;  
+    // box-shadow: -0.5rem -0.75rem 1rem -1rem;
+  }
+
+
   
   @media (min-width: 60rem){
     .card-grid{

@@ -1,7 +1,8 @@
 import React from 'react';
 // import '/src/index.css';
 import '/src/styles/main.scss';
-import '/src/styles/components/ProjectTile.css';
+
+import '/src/styles/components/ProjectTile.scss';
 
 const ProjectTile = ({ title, projectType, year, topics, video, image, description, bgColor }) => {
     return (
@@ -26,7 +27,7 @@ const ProjectTile = ({ title, projectType, year, topics, video, image, descripti
                     <p>No video available</p>
                 )}
             </div>
-            <div className="tile colour-primary-1">
+            <div className="tile colour-primary-2 bordered">
                 <h2>Topics:</h2> {/* Topics */}
                 <ul>
                     {topics.map((topic, index) => (
@@ -36,14 +37,14 @@ const ProjectTile = ({ title, projectType, year, topics, video, image, descripti
                     ))}
                 </ul>
             </div>
-            <div className="tile colour-primary-2">
+            <div className="tile colour-primary-2 bordered">
                 <h2>Thoughts</h2>
                 
             </div>
             <div className="tile colour-primary-2">
-                <div>Misc</div>
+                <div>Three.js</div>
             </div>
-            <div className="tile colour-primary-1">
+            <div className="tile colour-primary-2 bordered">
                 <h2>Description:</h2> {/* Description */}
                 <p>{description.join(" ")}</p> {/* Join description into a single paragraph */}
             </div>

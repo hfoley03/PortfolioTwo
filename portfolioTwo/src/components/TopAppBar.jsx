@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '/src/styles/components/TopAppBar.css';
+import '/src/styles/components/TopAppBar.scss';
+
 
 const TopAppBar = () => {
     return (
