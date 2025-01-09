@@ -1,5 +1,7 @@
 // src/App.jsx
 import React from 'react';
+import '/src/App.scss';
+
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import TopAppBar from './components/TopAppBar';
 import TopicPage from "./components/TopicPage";

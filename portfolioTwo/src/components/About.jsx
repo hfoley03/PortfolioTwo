@@ -1,6 +1,6 @@
 // src/components/About.jsx
 import React from 'react';
-import '/src/styles/About.css';
+import '/src/styles/pages/About.css';
 
 const About = () => {
   return (

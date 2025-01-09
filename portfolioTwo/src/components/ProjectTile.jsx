@@ -1,6 +1,7 @@
 import React from 'react';
-import '/src/index.css';
-import '/src/styles/ProjectTile.css';
+// import '/src/index.css';
+import '/src/styles/main.scss';
+import '/src/styles/components/ProjectTile.css';
 
 const ProjectTile = ({ title, projectType, year, topics, video, image, description, bgColor }) => {
     return (
@@ -29,7 +30,9 @@ const ProjectTile = ({ title, projectType, year, topics, video, image, descripti
                 <h2>Topics:</h2> {/* Topics */}
                 <ul>
                     {topics.map((topic, index) => (
-                        <li key={index}>{topic}</li>
+                        <li key={index}>
+                            {topic}
+                        </li>
                     ))}
                 </ul>
             </div>

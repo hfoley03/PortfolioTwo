@@ -1,0 +1,91 @@
+/* src/App.css */
+@import '/src/styles/variables';
+
+/* Reset margin and padding to make sure the content fills the whole screen */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Ensure padding doesn't mess with layout */
+  }
+  
+  /* App Container */
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%; /* Ensure it takes full width */
+    background-color: $background-color;
+    margin: 0; /* Ensure no extra margin */
+    padding: 0; /* Ensure no extra padding */
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex-grow: 1; /* Ensure it takes the remaining space */
+    display: grid;
+    grid-template-rows: auto 1fr; /* Adjust the rows */
+    padding: 2rem;
+    gap: 2rem;
+    width: 100%; /* Ensure it takes full width */
+  }
+  
+  /* Fullscreen Section */
+  section {
+    padding: 2rem;
+    background-color: $background-color;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure it takes full width */
+  }
+  
+  /* Home Section */
+  .home-section {
+    min-height: 100vh; /* Take up full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #333;
+    color: rgb(188, 26, 26);
+    width: 100%; /* Ensure full width */
+  }
+  
+  .home-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .home-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* About, Projects, and Contact Sections */
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  section p {
+    font-size: 1rem;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .home-section h1 {
+      font-size: 2rem;
+    }
+  
+    .home-section p {
+      font-size: 1rem;
+    }
+  
+    section h2 {
+      font-size: 1.5rem;
+    }
+  
+    section p {
+      font-size: 0.9rem;
+    }
+  }
+  
