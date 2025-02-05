@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import ProjectTile from "/src/components/ProjectTile";
+import "/src/styles/pages/TopicPage.scss";
 
 const TopicPage = ({ groupedProjects}) => {
     const {topicName} = useParams();
@@ -12,14 +13,15 @@ const TopicPage = ({ groupedProjects}) => {
 
     return (
         <div>
-          <h1>{topicName}</h1>
-          {projects.map((project) => (
+      <h1 className="drifting-title">{topicName}</h1>
+      {projects.map((project) => (
             <ProjectTile
               key={project.title} // Unique key for each project
               title={project.title}
               projectType={project.projectType}
               year={project.year || "Year not provided"} // Use year if available
               topics={project.topics}
+              languages={project.languages}
               video={project.video}
               image={project.image} 
               description={project.description}

@@ -1,5 +1,6 @@
 // src/App.jsx
-import React from 'react';
+// import React from 'react';
+
 import '/src/App.scss';
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -26,6 +27,16 @@ const App = () => {
             element={<TopicPage groupedProjects={groupedProjects} />}
           />
         </Routes>
+        {/* <div>
+          <Canvas>
+          <ambientLight intensity={0.5} />
+          <directionalLight color="white" position={[0,0,5]} intensity={2}/>
+          <mesh>
+              <boxGeometry />
+              <meshStandardMaterial />
+          </mesh>
+          </Canvas>
+        </div> */}
       </div>
     </Router>
   );

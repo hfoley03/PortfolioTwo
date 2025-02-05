@@ -1,10 +1,11 @@
 [
     {
       "id": 1,
-      "title": "MUSIC & ART THERAPY",
+      "title": "SoundShaping",
       "projectType": "THESIS",
       "year": "2024",
       "topics": ["Apple", "Orange"],
+      "languages" : ["C#", "Python" ],
       "video": "https://www.youtube.com/embed/QRWjeqrhi9Y?si=yZgF6-dcdoohF0Xd",
       "description": [
       "My current thesis at I3Lab in Music & Art Therapy Activity in Augmented Reality for people with neurodevelopmental conditions. The projects research questions focus on emotional regulation, sustained & selective attention, and engagement through performance.",
@@ -19,6 +20,7 @@
       "projectType": "MUSEUM INSTALLATION",
       "year": "2024",
       "topics": ["Kiwi", "Apple"],
+      "languages" : ["C#", "Python" ],
       "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
       "description": [
       "This project takes data from the World3 model and transforms it to audio visual representation to promote awareness of our control of our planet’s future. ",
@@ -33,6 +35,7 @@
       "projectType": "VIDEO GAME",
       "year": "2024",
       "topics": ["Carrot", "Orange"],
+      "languages" : ["C#", "Python" ],
       "image": "./src/images/night_screen.jpeg",
       "description": [
       "3D animal hunting game in Vulkan. Custom shaders implementing Blinn-Phong, Oren-Nayar, Normal Mapping and Sky Box techniques",
@@ -46,6 +49,7 @@
       "projectType": "MOBILE APP",
       "year": "2024",
       "topics": ["Carrot", "Apple", "Kiwi"],
+      "languages" : ["C#", "Python" ],
       "image": "./src/images/Mobile.png",
       "description": [
       "PhoneSampler is an Android application that allows users to record audio from other apps in their phones.",

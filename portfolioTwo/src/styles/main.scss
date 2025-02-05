@@ -7,6 +7,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+
   }
   
   body {
@@ -126,4 +127,23 @@
   .colour-primary-1 {
     background-color: $primary-color;
     color: $background-color;
+
+    &:hover {
+     background-color: $primary-flip-color;
+    }
   }
+
+  .text-primary-color-flip {
+    color: $primary-color;
+    &:hover {
+      color : $primary-flip-color;
+    }
+  }
+
+
+
+  // .container {
+  //   max-width: 1000px;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  // }

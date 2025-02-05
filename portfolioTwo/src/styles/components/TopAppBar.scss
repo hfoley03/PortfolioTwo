@@ -6,11 +6,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: $primary-color;
-    color: #fff;
+    padding: 1rem 4rem;
+    background-color: $background-color;
+    color: $primary-color;
     position: sticky;
-    /* top: 0; */
     width: auto;
     z-index: 10;
   }
@@ -30,5 +29,15 @@
   
   .top-app-bar__nav a:hover {
     color: #ddd;
+  }
+
+  .app-name {
+    color: $primary-color;
+    font-size: 3rem;
+    font-weight: 100;
+
+    &:hover{
+        color: $primary-flip-color;
+    }
   }
   
