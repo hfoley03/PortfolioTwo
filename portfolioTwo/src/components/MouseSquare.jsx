@@ -48,7 +48,7 @@ function TopicSelector({topic, ...props}) {
         >
         <boxGeometry args={[1,1,1]} />
         <meshStandardMaterial color={ hovered ? 'blue' : 'green'} />
-        </mesh>
+        </mesh> 
         </group>
     )
 }

@@ -2,10 +2,10 @@
     {
       "id": 1,
       "title": "SoundShaping",
-      "projectType": "THESIS",
+      "projectType": "MASTER'S THESIS",
       "year": "2024",
-      "topics": ["Apple", "Orange"],
-      "languages" : ["C#", "Python" ],
+      "topics": ["Augmented Reality", "HCI", "Audio", "Visual"],
+      "languages" : ["C#", "Python", "Unity", "OSC"],
       "video": "https://www.youtube.com/embed/QRWjeqrhi9Y?si=yZgF6-dcdoohF0Xd",
       "description": [
       "My current thesis at I3Lab in Music & Art Therapy Activity in Augmented Reality for people with neurodevelopmental conditions. The projects research questions focus on emotional regulation, sustained & selective attention, and engagement through performance.",
@@ -16,11 +16,11 @@
     },
     {
       "id": 2,
-      "title": "FUTURE WORLDS",
+      "title": "Future Worlds",
       "projectType": "MUSEUM INSTALLATION",
       "year": "2024",
-      "topics": ["Kiwi", "Apple"],
-      "languages" : ["C#", "Python" ],
+      "topics": ["Audio", "Visual", "Graphics", "Creative Coding"],
+      "languages" : ["C++", "Python", "Openframeworks" ],
       "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
       "description": [
       "This project takes data from the World3 model and transforms it to audio visual representation to promote awareness of our control of our planet’s future. ",
@@ -31,11 +31,11 @@
     },
     {
       "id": 3,
-      "title": "HUNT",
+      "title": "Hunt",
       "projectType": "VIDEO GAME",
       "year": "2024",
-      "topics": ["Carrot", "Orange"],
-      "languages" : ["C#", "Python" ],
+      "topics": ["Visual", "Graphics", "Creative Coding"],
+      "languages" : ["C++", "Vulkan"],
       "image": "./src/images/night_screen.jpeg",
       "description": [
       "3D animal hunting game in Vulkan. Custom shaders implementing Blinn-Phong, Oren-Nayar, Normal Mapping and Sky Box techniques",
@@ -45,16 +45,226 @@
     },
     {
       "id": 4,
-      "title": "PHONE SAMPLER",
+      "title": "PhoneSample",
       "projectType": "MOBILE APP",
       "year": "2024",
-      "topics": ["Carrot", "Apple", "Kiwi"],
-      "languages" : ["C#", "Python" ],
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Mobile", "Audio", "Visual", "UX"],
+      "languages" : ["Kotlin"],
       "image": "./src/images/Mobile.png",
       "description": [
-      "PhoneSampler is an Android application that allows users to record audio from other apps in their phones.",
-      "Users can record, browse and edit samples from apps such as Instagram and Youtube",
-      "Integrates with freesound.org API to allow users to upload their samples and browse for new ones directly in the app"
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 5,
+      "title": "Anemone",
+      "projectType": "WEBSITE",
+      "year": "2024",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Website", "HCI", "UX"],
+      "languages" : ["Javascript", "Nuxt.js" ],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 6,
+      "title": "Polyphonic Synth",
+      "projectType": "BACHELOR'S THESIS",
+      "year": "2021",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Hardware", "Audio", "MIDI"],
+      "languages" : ["C", "Puredata" ],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 7,
+      "title": "Boy Racer",
+      "projectType": "MUSIC VISUALIZER",
+      "year": "2024",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Audio", "Visual", "Graphics", "Computer Vision", "Creative Coding"],
+      "languages" : ["C+", "Openframeworks" ],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 8,
+      "title": "Video Manipulation",
+      "projectType": "CREATIVE EXPERIMENT",
+      "year": "2024",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Visual", "Creative Coding"],
+      "languages" : ["C++", "Openframeworks"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 9,
+      "title": "Swarm Composition 2",
+      "projectType": "CREATIVE EXPERIMENT",
+      "year": "2023",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Creative Coding", "Audio", "Visual"],
+      "languages" : ["C++", "Openframeworks", "OSC"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 10,
+      "title": "Swarm Composition 3",
+      "projectType": "CREATIVE EXPERIMENT",
+      "year": "2023",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Creative Coding", "Audio", "Visual"],
+      "languages" : ["C++", "Openframeworks", "OSC"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 11,
+      "title": "Valentine's Animation",
+      "projectType": "MUSIC VISUALIZER",
+      "year": "2024",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Creative Coding", "Audio", "Visual"],
+      "languages" : ["C++", "Openframeworks"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 12,
+      "title": "Swarm Animation",
+      "projectType": "MUSIC VISUALIZER",
+      "year": "2024",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Creative Coding", "Audio", "Visual"],
+      "languages" : ["C++", "Openframeworks"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 13,
+      "title": "Baby I'm For Real",
+      "projectType": "ALBUM ARTWORK",
+      "year": "2023",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Audio", "Visual", "Graphics", "Creative Coding"],
+      "languages" : ["Python"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 14,
+      "title": "Instagram Eyes",
+      "projectType": "CREATIVE EXPERIMENT",
+      "year": "2023",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Visual", "Creative Coding"],
+      "languages" : ["Python" ],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 15,
+      "title": "SERG",
+      "projectType": "WEB APP",
+      "year": "2022",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Visual", "Audio", "Website", "MIDI", "HCI"],
+      "languages" : ["Javascript", "P5.js"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 16,
+      "title": "MusicTraces",
+      "projectType": "SMART ENVIRONMENT",
+      "year": "2023",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["HCI", "UX", "Audio", "Hardware", "Augmented Reality"],
+      "languages" : ["C#", "Python", "Unity"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 17,
+      "title": "M-RAM",
+      "projectType": "SMART HOME",
+      "year": "2023",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Visual", "Audio", "Hardware", "HCI"],
+      "languages" : ["Java", "Processing", "SuperCollider"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "id": 18,
+      "title": "Distortion",
+      "projectType": "DIDACTIC TOOL",
+      "year": "2023",
+      "gitLink" : "",
+      "otherLink" : "",
+      "topics": ["Visual", "Audio","HCI"],
+      "languages" : ["Java", "Processing", "SuperCollider"],
+      "image": "./src/images/Mobile.png",
+      "description": [
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
       "bgColor": "colour2"
     }
