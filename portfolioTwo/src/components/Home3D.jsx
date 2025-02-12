@@ -4,6 +4,7 @@ import {Canvas, useLoader, useFrame } from "@react-three/fiber";
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { useNavigate } from "react-router-dom";
 import { Text,Center, Text3D } from "@react-three/drei";
+import interBoldFont from "/Inter_Bold.json?url";
 
 function SceneBasic() {
     const gltf = useLoader(GLTFLoader, '/coneman.gltf');
@@ -76,7 +77,7 @@ function TopicSelector({topic, ...props}) {
             <Text3D 
               letterSpacing={0.2} 
               size={1} 
-              font="/Inter_Bold.json"
+              font={interBoldFont}
               curveSegments={16}
               bevelEnabled
               bevelSize={0.01}
