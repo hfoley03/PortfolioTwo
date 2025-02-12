@@ -2,21 +2,21 @@
 
 .card-grid {
     display: grid;
-    gap: 1rem;
+    gap: 1.0rem;
     padding-block: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin-inline: auto;
     max-width: 1500px;
   }
 
   .tile, .tileBasic {
-    padding: 2rem;
-    // background-color: $background-color;  
-    // box-shadow: -0.5rem -0.75rem 1rem -1rem;
+    padding: 1rem;
   }
 
   @media (min-width: 60rem){
     .card-grid{
-      grid-template-columns: repeat(4,1fr);
+      grid-template-columns: repeat(4,minmax(250px, 400px));
     }
   
     .tile:last-child {

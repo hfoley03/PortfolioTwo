@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "SoundShaping",
+      "title": "Sound Shaping",
       "projectType": "MASTER'S THESIS",
       "year": "2024",
       "topics": ["Augmented Reality", "HCI", "Audio", "Visual"],
@@ -45,7 +45,7 @@
     },
     {
       "id": 4,
-      "title": "PhoneSample",
+      "title": "Phone Sampler",
       "projectType": "MOBILE APP",
       "year": "2024",
       "gitLink" : "",
@@ -225,7 +225,7 @@
     },
     {
       "id": 16,
-      "title": "MusicTraces",
+      "title": "Music Traces",
       "projectType": "SMART ENVIRONMENT",
       "year": "2023",
       "gitLink" : "",

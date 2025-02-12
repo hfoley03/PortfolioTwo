@@ -29,7 +29,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 const ProjectTile = ({ title, projectType, year, topics, languages, video, image, description, bgColor }) => {
     return (
         <div className={`card-grid ${bgColor}`}> 
-            <div className="tile colour-primary-1">
+            <div className="tile title-tile colour-primary-1">
                 <h1>{title}</h1> 
                 <h2>{projectType}</h2>
                 <h2>{year}</h2>
@@ -80,15 +80,17 @@ const ProjectTile = ({ title, projectType, year, topics, languages, video, image
                     ))}
                 </ul>
             </div>
-            <div className="tile colour-primary-2">
-                {/* <Canvas>
+            <div className="tile colour-primary-2 bordered">
+                {
+                 <Canvas>
                 <ambientLight intensity={0.5} />
                 <directionalLight color="white" position={[0,0,5]} intensity={2}/>
                 <mesh>
                     <boxGeometry />
                     <meshStandardMaterial />
                 </mesh>
-                </Canvas> */}
+                </Canvas> 
+                }
             </div>
             <div className="tile colour-primary-2 bordered">
                 <h2>Description:</h2> {/* Description */}
