@@ -30,7 +30,7 @@ function useBounds() {
     return bounds;
 }
 
-const instances = []; // Global reference to track all TopicSelector instances
+const instances = []; 
 
 function TopicSelector({ topic, initialPosition }) {
     const BOUNDS = useBounds();

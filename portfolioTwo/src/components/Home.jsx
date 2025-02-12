@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Home3D from '/src/components/Home3D';
+import Carousel3D from '/src/components/Carousel3D'; 
 import "/src/styles/main.scss";
 
 const Home = ({groupedProjects}) => {
@@ -18,7 +19,7 @@ const Home = ({groupedProjects}) => {
               </li>
               ))}
           </ul> */}
-          <Home3D/>
+          <Carousel3D/>
       </div>
       </div>
     );
