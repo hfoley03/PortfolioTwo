@@ -1,6 +1,6 @@
 /* src/components/TopAppBar.css */
 
-@use '/src/styles/variables';
+@use '../variables' as *;
 
 .top-app-bar {
     display: flex;
