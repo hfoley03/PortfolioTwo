@@ -1,17 +1,9 @@
-// .drifting-title {
-//     // position: relative;
-//     animation: drift 3s ease-in-out forwards;
-//   }
-  
-//   @keyframes drift {
-//     0% {
-//       transform: translateX(0%);
-//     }
-//     100% {
-//       transform: translateX(100%);
-//     }
-//   }
+
   
 body {
     padding: 1rem;
+}
+
+.title {
+    text-align: center;
 }

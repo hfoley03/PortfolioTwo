@@ -13,7 +13,7 @@ const TopicPage = ({ groupedProjects}) => {
 
     return (
         <div>
-      <h1 className="drifting-title">{topicName}</h1>
+      <h1 className="title">{topicName} Projects</h1>
       {projects.map((project) => (
             <ProjectTile
               key={project.title} // Unique key for each project

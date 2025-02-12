@@ -8,6 +8,8 @@ import TopAppBar from './components/TopAppBar';
 import TopicPage from "./components/TopicPage";
 import Home from './components/Home';
 import About from './components/About';
+import Contact from './components/Contact';
+
 
 import groupProjectsByTopic from './utils/GroupProjectsByTopic';
 import projects from './data/simpleProjects.json';
@@ -22,6 +24,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home groupedProjects={groupedProjects} />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route
             path="/topic/:topicName"
             element={<TopicPage groupedProjects={groupedProjects} />}
