@@ -10,17 +10,22 @@ const Home = ({groupedProjects}) => {
 
     return (
       <div className="container">
-      <div className ="content-grid">
-          <h1 className='title'>Explore Topics</h1>
-          {/* <ul>
-              {topics.map((topic) => (
-                  <li key={topic}>
-              <Link to={`/topic/${encodeURIComponent(topic)}`}>{topic}</Link>
-              </li>
-              ))}
-          </ul> */}
-          <Carousel3D/>
-      </div>
+        <div className ="content-grid">
+          <div className="home-grid">
+            <div className='home-cols '>
+              <div className='bordered center'>
+                <h1 className='center'>HARRY</h1>
+              </div>
+              <div className='bordered'>
+                <p>Hi! I'm a software engineer from Ireland.</p>
+                <p>I have a background in electronic and computer engineering</p>
+                </div>
+            </div>
+            <div className='bordered'>
+              <Carousel3D/>
+            </div>
+          </div>
+        </div>
       </div>
     );
   };

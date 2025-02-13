@@ -60,6 +60,40 @@
   .content-grid > .full-width {
     grid-column: full-width;
   }
+
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 400px));
+    gap: 1.0rem;
+    padding-block: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-inline: auto;
+    max-width: 1500px;
+  }
+
+  .home-cols {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(200px, 400px));
+    gap: 1.0rem;
+  }
+
+  @media (min-width: 60rem){
+    .home-grid{
+      grid-template-columns:  repeat(2, minmax(200px, 400px));
+    }
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+  }
   
   img,
   picture,

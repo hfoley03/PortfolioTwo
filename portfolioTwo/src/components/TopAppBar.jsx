@@ -8,7 +8,7 @@ const TopAppBar = () => {
     return (
       <header className="top-app-bar">
         <div className="app-name">
-              <Link to="/" className='app-name text-primary-color-flip'>Harry</Link>
+              <Link to="/" className='app-name text-primary-color-flip'>HDF</Link>
           </div>
         <nav>
           <ul className="nav-links">
