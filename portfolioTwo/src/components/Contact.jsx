@@ -1,7 +1,7 @@
 import React from 'react';
 import MouseSquare from '/src/components/MouseSquare';
 
-const About = () => {
+const Contact = () => {
   return (
     <div className="content-grid">
       <div className="generic-tile colour-primary-2 bordered">
@@ -13,4 +13,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;

@@ -11,20 +11,8 @@ import file100 from  '/src/assets/file-100.svg';
 
 
 import React, { useRef } from "react";
-import {Canvas, useLoader, useFrame } from "@react-three/fiber";
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
-// function SceneBasic() {
-//     const gltf = useLoader(GLTFLoader, '/coneman.gltf');
-//     return (
-//       <primitive 
-//         object={gltf.scene} // Render the 3D model
-//         scale={[0.5, 0.5, 0.5]} // Adjust the size if necessary
-//         position={[0, 0, 0]} // Set the position
-//         rotation={[0, Math.PI / 4, 0]} // Optional rotation
-//       />
-//     );
-//   };
+
 
 const ProjectTile = ({ title, projectType, year, topics, languages, video, image, description, bgColor }) => {
     return (
@@ -81,7 +69,7 @@ const ProjectTile = ({ title, projectType, year, topics, languages, video, image
                 </ul>
             </div>
             <div className="tile colour-primary-2 bordered">
-                {
+                {/* {
                  <Canvas>
                 <ambientLight intensity={0.5} />
                 <directionalLight color="white" position={[0,0,5]} intensity={2}/>
@@ -90,7 +78,7 @@ const ProjectTile = ({ title, projectType, year, topics, languages, video, image
                     <meshStandardMaterial />
                 </mesh>
                 </Canvas> 
-                }
+                } */}
             </div>
             <div className="tile colour-primary-2 bordered">
                 <h2>Description:</h2> {/* Description */}

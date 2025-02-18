@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <Router>
-      <TopAppBar /> {/* Render the top navigation bar */}
+      <TopAppBar />
       <div className="App">
         <Routes>
           <Route path="/" element={<Home groupedProjects={groupedProjects} />} />
@@ -30,16 +30,6 @@ const App = () => {
             element={<TopicPage groupedProjects={groupedProjects} />}
           />
         </Routes>
-        {/* <div>
-          <Canvas>
-          <ambientLight intensity={0.5} />
-          <directionalLight color="white" position={[0,0,5]} intensity={2}/>
-          <mesh>
-              <boxGeometry />
-              <meshStandardMaterial />
-          </mesh>
-          </Canvas>
-        </div> */}
       </div>
     </Router>
   );

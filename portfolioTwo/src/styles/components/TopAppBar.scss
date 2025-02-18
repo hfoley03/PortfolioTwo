@@ -2,42 +2,86 @@
 
 @use '../variables' as *;
 
-.top-app-bar {
+.header {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  max-width: 1700px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.app-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.menu li {
+  font-size: 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: $primary-flip-color;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 32px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  color: #333;
+}
+
+@media (max-width: 60rem) {
+  .desktop-menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 0;
+    width: 100%;
+  }
+
+  .menu.open {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 4rem;
-    background-color: $background-color;
-    color: $primary-color;
-    position: sticky;
-    width: auto;
-    z-index: 10;
-  }
-  
-  .top-app-bar__logo h1 {
-    font-size: 1.5rem;
-    margin: 0;
-  }
-  
-  .top-app-bar__nav a {
-    color: #fff;
-    margin-left: 1rem;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-  }
-  
-  .top-app-bar__nav a:hover {
-    color: #ddd;
   }
 
-  .app-name {
-    color: $primary-color;
-    font-size: 3rem;
-    font-weight: 100;
-
-    &:hover{
-        color: $primary-flip-color;
-    }
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 32px;
   }
-  
+}

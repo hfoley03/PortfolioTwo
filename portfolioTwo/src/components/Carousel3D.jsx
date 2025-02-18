@@ -51,34 +51,37 @@ function CarouselItem({ itemText, offset, numberOfItems, carouselAngle, setHover
                     }}
                     >
                 <boxGeometry args={[3, 1, 0.5]} />
-                <meshBasicMaterial transparent opacity={0.04} color={'grey'}/>
+                <meshBasicMaterial transparent opacity={0.0} color={'grey'}/>
+                {/* <meshPhongMaterial shininess={100}/> */}
                 </mesh>
 
-            <Center ref={textRef} position={position}>
+            <Center ref={textRef} position={position} rotateY={Math.PI}>
                 {words.length === 2 ? (
                     <>
                         <Text3D size={0.3} font={interBoldFont} position={[0, 0.2, 0]}>
                             {words[0]}
-                            <meshPhongMaterial color={ hovered ? 'green' : [opacity, opacity, opacity]} />
-                        </Text3D>
+                            <meshStandardMaterial color={ hovered ? 'green' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
+                            </Text3D>
                         <Text3D size={0.3} font={interBoldFont} position={[+0.0, -0.2, 0]}>
                             {words[1]}
-                            <meshPhongMaterial color={ hovered ? 'green' : [opacity, opacity, opacity]} />
-                        </Text3D>                   
+                            <meshStandardMaterial color={ hovered ? 'green' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
+                            </Text3D>                   
                     </>
 
                 ) : 
                 ( <Text3D 
-                    // letterSpacing={0.0} 
+                    letterSpacing={0.05} 
                     size={0.3} 
                     font={interBoldFont}
-                    // curveSegments={16}
+                    curveSegments={16}
                     // bevelEnabled
                     // bevelSize={0.01}
-                    // bevelThickness={0.05}
+                    // bevelThickness={0.005}
+                    // bevelOffset={0.02}
+                    // bevelSegments={1}                      //color={ hovered ? 'green' : [opacity, opacity, opacity]}
                 >
                     {words[0]}
-                     <meshPhongMaterial color={ hovered ? 'green' : [opacity, opacity, opacity]} />
+                    <meshStandardMaterial color={ hovered ? 'green' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
                 </Text3D>
                 )}
             </Center>
@@ -111,30 +114,47 @@ function CarouselManager( {topics} ){
     );
 }
 
+
+
 const Carousel3D = () => {
+
+    let gl;
+
+    useEffect( () => {
+        return () => {
+            if (gl){
+                console.log('Disposing WebGL context Carousel3D');
+                gl.dispose();
+            }
+        };
+    }, []);
 
     const topics = [
         { topic: "Visual"},
         { topic: "Audio" },
         { topic: "Graphics"},
         { topic: "Mobile"},
-        { topic: "Creative Coding"},
-        { topic: "Augmented Reality"},
+        // { topic: "Creative Coding"},
+        // { topic: "Augmented Reality"},
         { topic: "MIDI"},
         { topic: "HCI"},
         { topic: "Hardware"},
         { topic: "UX"},
         { topic: "Website" },
-        { topic: "Computer Vision"},
+        // { topic: "Computer Vision"},
     ];
     return (
         <div className="fill-rest-height">
-            <Canvas  
-            camera={{ position: [0, 0, 10], fov: 50 }} 
+            <Canvas
+            onCreated={ (state) => {
+                gl = state.gl;
+            }}
+            camera={{ position: [0, 0, 10], fov: 40 }} 
             shadows>
-                {/* <ambientLight intensity={0.5}/> */}
-                <directionalLight color="white" position={[10,5,5]} intensity={2} />
-                <directionalLight color="white" position={[-10,0,5]} intensity={4} />
+                <ambientLight intensity={0.5}/>
+                <directionalLight color="green" position={[-1,0,25]} intensity={1} />
+                <directionalLight color="green" position={[1,0, 25]} intensity={1} />
+                {/* <directionalLight position={[0,-2,10]} intensity={1} /> */}
                 <CarouselManager topics = {topics}/>
             </Canvas>
         </div>

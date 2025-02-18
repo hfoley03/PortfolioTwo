@@ -2,6 +2,8 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import ProjectTile from "/src/components/ProjectTile";
 import "/src/styles/pages/TopicPage.scss";
+import TopicPageTitle3D from '/src/components/TopicPageTitle3D'; 
+
 
 const TopicPage = ({ groupedProjects}) => {
     const {topicName} = useParams();
@@ -13,7 +15,9 @@ const TopicPage = ({ groupedProjects}) => {
 
     return (
         <div>
-      <h1 className="title">{topicName} Projects</h1>
+          <div>
+          <TopicPageTitle3D/>
+          </div>
       {projects.map((project) => (
             <ProjectTile
               key={project.title} // Unique key for each project
