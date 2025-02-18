@@ -79,16 +79,16 @@ function TopicSelector({ topic, initialPosition }) {
             // console.log("Pos A:", position.current, "Pos B:", instance.position.current);
             // console.log(`dx: ${dx}, dy: ${dy}`);
 
-            if (distance < minDistance) {
-                console.log(`d: ${minDistance}`);
-                const angle = Math.atan2(dy, dx);
-                const speed1 = Math.sqrt(velocity.current.x ** 2 + velocity.current.y ** 2);
-                const speed2 = Math.sqrt(instance.velocity.current.x ** 2 + instance.velocity.current.y ** 2);      
-                velocity.current.x = Math.cos(angle) * speed2;
-                velocity.current.y = Math.sin(angle) * speed2;   
-                instance.velocity.current.x = Math.cos(angle + Math.PI) * speed1;
-                instance.velocity.current.y = Math.sin(angle + Math.PI) * speed1;
-            }
+            // if (distance < minDistance) {
+            //     console.log(`d: ${minDistance}`);
+            //     const angle = Math.atan2(dy, dx);
+            //     const speed1 = Math.sqrt(velocity.current.x ** 2 + velocity.current.y ** 2);
+            //     const speed2 = Math.sqrt(instance.velocity.current.x ** 2 + instance.velocity.current.y ** 2);      
+            //     velocity.current.x = Math.cos(angle) * speed2;
+            //     velocity.current.y = Math.sin(angle) * speed2;   
+            //     instance.velocity.current.x = Math.cos(angle + Math.PI) * speed1;
+            //     instance.velocity.current.y = Math.sin(angle + Math.PI) * speed1;
+            // }
         });
 
         if (textRef.current && boxRef.current) {
@@ -132,18 +132,18 @@ function TopicSelector({ topic, initialPosition }) {
 
 const Home3D = () => {
     const topics = [
-        { topic: "Visual", position: [-5, 3, 0] },
-        { topic: "Audio", position: [5, 3, 0] },
-        { topic: "Graphics", position: [-5, 0, 0] },
-        { topic: "Mobile", position: [5, 0, 0] },
-        { topic: "Creative Coding", position: [-5, -3, 0] },
-        { topic: "Augmented Reality", position: [5, -3, 0] },
-        { topic: "MIDI", position: [-5, 6, 0] },
-        { topic: "HCI", position: [5, 6, 0] },
-        { topic: "Hardware", position: [-5, -6, 0] },
-        { topic: "UX", position: [5, -6, 0] },
-        { topic: "Website", position: [-5, 9, 0] },
-        { topic: "Computer Vision", position: [5, 9, 0] },
+        { topic: "Harry", position: [-5, 3, 0] },
+        { topic: "Denis", position: [5, 3, 0] },
+        { topic: "Foley", position: [-5, 0, 0] },
+        // { topic: "Mobile", position: [5, 0, 0] },
+        // { topic: "Creative Coding", position: [-5, -3, 0] },
+        // { topic: "Augmented Reality", position: [5, -3, 0] },
+        // { topic: "MIDI", position: [-5, 6, 0] },
+        // { topic: "HCI", position: [5, 6, 0] },
+        // { topic: "Hardware", position: [-5, -6, 0] },
+        // { topic: "UX", position: [5, -6, 0] },
+        // { topic: "Website", position: [-5, 9, 0] },
+        // { topic: "Computer Vision", position: [5, 9, 0] },
     ];
 
     return (

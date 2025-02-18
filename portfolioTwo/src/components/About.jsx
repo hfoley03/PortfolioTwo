@@ -7,7 +7,7 @@ import '/src/styles/main.scss';
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="content-grid">
       <div className='home-grid'>
       <div className="colour-primary-2 bordered">
           <p>My name is Harry, I am a software engineer from Ireland with a love for audio, visual and immersive technology.</p>

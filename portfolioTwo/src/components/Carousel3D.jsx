@@ -134,14 +134,14 @@ const Carousel3D = () => {
         { topic: "Audio" },
         { topic: "Graphics"},
         { topic: "Mobile"},
-        // { topic: "Creative Coding"},
-        // { topic: "Augmented Reality"},
+        { topic: "Creative Coding"},
+        { topic: "Augmented Reality"},
         { topic: "MIDI"},
         { topic: "HCI"},
         { topic: "Hardware"},
         { topic: "UX"},
         { topic: "Website" },
-        // { topic: "Computer Vision"},
+        { topic: "Computer Vision"},
     ];
     return (
         <div className="fill-rest-height">
@@ -154,6 +154,7 @@ const Carousel3D = () => {
                 <ambientLight intensity={0.5}/>
                 <directionalLight color="green" position={[-1,0,25]} intensity={1} />
                 <directionalLight color="green" position={[1,0, 25]} intensity={1} />
+                <directionalLight color="white" position={[0,1, 25]} intensity={0.5} />
                 {/* <directionalLight position={[0,-2,10]} intensity={1} /> */}
                 <CarouselManager topics = {topics}/>
             </Canvas>

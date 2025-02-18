@@ -9,10 +9,9 @@ const Home = ({groupedProjects}) => {
     const topics = Object.keys(groupedProjects);
 
     return (
-      <div className="container">
         <div className ="content-grid">
           <div className="home-grid">
-            <div className='home-cols '>
+            <div className='home-cols'>
               <div className='bordered center'>
                 <h1 className='center'>HARRY</h1>
               </div>
@@ -26,7 +25,6 @@ const Home = ({groupedProjects}) => {
             </div>
           </div>
         </div>
-      </div>
     );
   };
 
