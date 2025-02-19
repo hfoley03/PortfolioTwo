@@ -27,7 +27,7 @@
     "id": 3,
     "title": "HUNT: VULKAN VIDEO GAME",
     "topics": ["Vulkan", "Computer Graphics", "C++", "Shaders"],
-    "image": "media/images/night_screen.jpeg",
+    "image": "./images/night_screen.jpeg",
     "description": [
     "3D animal hunting game in Vulkan. Custom shaders implementing Blinn-Phong, Oren-Nayar, Normal Mapping and Sky Box techniques",
     "The goal of the game is to hunt all of the animals inside of the map in the time given. The user is free to roam around the map, trying to find them all and shooting at them with its rifle. Aiming can be done with or without a scope, and during the night a torch can be activated to improve the visibility"
@@ -38,7 +38,7 @@
     "id": 4,
     "title": "PHONE-SAMPLER: MOBILE APP",
     "topics": ["Kotlin", "Jetpack Compose", "MVVM", "Audio"],
-    "image": "media/images/Mobile.png",
+    "image": "./images/Mobile.png",
     "description": [
     "PhoneSampler is an Android application that allows users to record audio from other apps in their phones.",
     "Users can record, browse and edit samples from apps such as Instagram and Youtube",
@@ -50,7 +50,7 @@
     "id": 5,
     "title": "ANEMONE: WEBSITE",
     "topics": ["Nuxt.js", "Tailwind", "Prompt Engineering", "Chatbot"],
-    "image": "media/images/AnemoneHome.png",
+    "image": "./images/AnemoneHome.png",
     "description": [
     "Hypermedia course project to implement a website for a Women's Rights Centre. The website can be viewed <a href='https://anemone-n2be.vercel.app' target='_blank'>here</a>.",
     "One of my contributions to the project was prompt engineering a conversational agent to act as a psychological counsellor using the OpenAI api, an interesting challenge.",
@@ -62,7 +62,7 @@
     "id": 6,
     "title": "TRUE POLYPHONIC EXPANDABLE VOICE SYNTH: BENG FINAL YEAR PROJECT",
     "topics": ["Audio", "MIDI", "C", "PureData", "Arduino", "Teensy", "Prototype"],
-    "image": "media/images/fyp1.jpg",
+    "image": "./images/fyp1.jpg",
     "description": [
     "BEng Final Year Project",
     "Digital Synthesizer concept that can grow with player's needs & budget",
@@ -156,7 +156,7 @@
     "id": 13,
     "title": "BABY I AM FOR REAL: MUSIC ARTWORK",
     "topics": ["Signal Analysis", "Audio", "Librosa", "Python", "Digital Art", "Music"],
-    "image": "media/images/forreal.png",
+    "image": "./images/forreal.png",
     "description": [
     "Artwork created for a single released for my music under the name AiK HiFi",
     "The artwork was created using a Self-Similarity Matrix, a musical analysis technique",
@@ -169,7 +169,7 @@
     "id": 14,
     "title": "INSTAGRAM EYES: EXPERIMENT",
     "topics": ["Openframeworks", "InstagramAPI", "Python"],
-    "image": "media/images/eyes.jpg",
+    "image": "./images/eyes.jpg",
     "description": [
     "I thought it was interesting that we many of us collect photos we see on Instagram by saving. This collection is personal and reflects what we find aesthetically pleasing.",
     "I decided to use the InstagramAPI to download the 1000s of posts I have saved and experiment on them. I used Python code to identify all pictures with faces and then to make new images cropped to these faces. I also used Python to find the coordinates of various facial features.",
@@ -181,7 +181,7 @@
     "id": 15,
     "title": "SHIFTING EUCLIDEAN RHYTHM GENERATOR: WEB APP",
     "topics": ["WebApp", "Audio", "MIDI", "P5.js", "HTML", "Javascript", "CSS"],
-    "image": "media/images/serg.png",
+    "image": "./images/serg.png",
     "description": [
     "Shifting Euclidean Rhythm Generator Web App",
     "SERG is a music composition tool inspired by Steve Reich's concept of phase shifting rhythms.",
@@ -206,7 +206,7 @@
     "id": 17,
     "title": "SUPER-COLLIDER DISTORTION EFFECTS: DIDACTIC TOOL",
     "topics": ["SuperCollider", "DSP", "Audio Effect", "GUI"],
-    "image": "media/images/Teach_Mode.png",
+    "image": "./images/Teach_Mode.png",
     "description": [
       "The project brief was to implement a didactic tool in SuperCollider to learn and/or teach the audio effect of distortion",
       "Created a tool that can be used in two modes, Learn and Teach",
@@ -219,7 +219,7 @@
     "id": 18,
     "title": "M-RAM: INSTALL-ATION",
     "topics": ["Python", "Interaction Design", "Generative Music", "Processing", "SuperCollider", "Arduino"],
-    "image": "media/images/MRAM.png",
+    "image": "./images/MRAM.png",
     "description": [
       "M-RAM, Musical Room Ambience Monitor, is designed to provide generative ambient music and sounds for a user’s bedroom.",
       "M-RAM uses the time of day, ambient light and motion to alter the sound and music that is played. It is primarily based in SuperCollider and also uses Arduino for data acquisition and Processing for GUI",
