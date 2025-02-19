@@ -32,7 +32,7 @@ const About = () => {
           <h1>Skills</h1>
             <p><b>Programming:</b> 7 years coding experience, languages include  C++, Unity C#, JavaScirpt, Java, Kotlin, Matlab.</p>
             <p><b>Software Development Lifecycle:</b> Professional and academic experience with documentation, Jira and Git in an Agile Environment.</p>
-            <p><b>Communication & Presentation:</b> Able to communicate technical subjects in an understandable way. Comfortable presenting to different audiences (professors, clients, stakeholders).</p>
+            <p><b>Communication & Presentation:</b> Able to communicate technical subjects in an understandable way. Comfortable presenting to different audiences.</p>
 
         </div>
       </div>

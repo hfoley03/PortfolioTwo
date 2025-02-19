@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 import GithubLogo from  '/src/assets/github-96.svg';
 import file100 from  '/src/assets/file-100.svg';
 
-import React, { useRef } from "react";
-
+import React, { useRef, process } from "react";
 
 
 const ProjectTile = ({ title, projectType, year, topics, languages, video, image, description, bgColor }) => {
+    console.log({image})
     return (
         <div className={`card-grid ${bgColor}`}> 
             <div className="tile colour-primary-1">
@@ -40,7 +40,9 @@ const ProjectTile = ({ title, projectType, year, topics, languages, video, image
                         allowFullScreen 
                     />
                 ) : image ? (
-                    <img src={image} alt={title}/>
+                    // <img src={image} alt={title}/>
+<img src={`${import.meta.env.BASE_URL}images/${image}`} alt="Night screen" />
+
                 ) : (
                     <p>No video available</p>
                 )}

@@ -36,7 +36,7 @@
       "year": "2024",
       "topics": ["Visual", "Graphics", "Creative Coding"],
       "languages" : ["C++", "Vulkan"],
-      "image": "./src/images/night_screen.jpeg",
+      "image": "night_screen.jpeg",
       "description": [
       "3D animal hunting game in Vulkan. Custom shaders implementing Blinn-Phong, Oren-Nayar, Normal Mapping and Sky Box techniques",
       "The goal of the game is to hunt all of the animals inside of the map in the time given. The user is free to roam around the map, trying to find them all and shooting at them with its rifle. Aiming can be done with or without a scope, and during the night a torch can be activated to improve the visibility"
@@ -52,7 +52,7 @@
       "otherLink" : "",
       "topics": ["Mobile", "Audio", "Visual", "UX"],
       "languages" : ["Kotlin"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -67,7 +67,7 @@
       "otherLink" : "",
       "topics": ["Website", "HCI", "UX"],
       "languages" : ["Javascript", "Nuxt.js" ],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -82,7 +82,7 @@
       "otherLink" : "",
       "topics": ["Hardware", "Audio", "MIDI"],
       "languages" : ["C", "Puredata" ],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -97,7 +97,7 @@
       "otherLink" : "",
       "topics": ["Audio", "Visual", "Graphics", "Computer Vision", "Creative Coding"],
       "languages" : ["C+", "Openframeworks" ],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -112,7 +112,7 @@
       "otherLink" : "",
       "topics": ["Visual", "Creative Coding"],
       "languages" : ["C++", "Openframeworks"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -127,7 +127,7 @@
       "otherLink" : "",
       "topics": ["Creative Coding", "Audio", "Visual"],
       "languages" : ["C++", "Openframeworks", "OSC"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -142,7 +142,7 @@
       "otherLink" : "",
       "topics": ["Creative Coding", "Audio", "Visual"],
       "languages" : ["C++", "Openframeworks", "OSC"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -157,7 +157,7 @@
       "otherLink" : "",
       "topics": ["Creative Coding", "Audio", "Visual"],
       "languages" : ["C++", "Openframeworks"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -172,7 +172,7 @@
       "otherLink" : "",
       "topics": ["Creative Coding", "Audio", "Visual"],
       "languages" : ["C++", "Openframeworks"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -187,7 +187,7 @@
       "otherLink" : "",
       "topics": ["Audio", "Visual", "Graphics", "Creative Coding"],
       "languages" : ["Python"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -202,7 +202,7 @@
       "otherLink" : "",
       "topics": ["Visual", "Creative Coding"],
       "languages" : ["Python" ],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -217,7 +217,7 @@
       "otherLink" : "",
       "topics": ["Visual", "Audio", "Website", "MIDI", "HCI"],
       "languages" : ["Javascript", "P5.js"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -232,7 +232,7 @@
       "otherLink" : "",
       "topics": ["HCI", "UX", "Audio", "Hardware", "Augmented Reality"],
       "languages" : ["C#", "Python", "Unity"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -247,7 +247,7 @@
       "otherLink" : "",
       "topics": ["Visual", "Audio", "Hardware", "HCI"],
       "languages" : ["Java", "Processing", "SuperCollider"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
@@ -262,7 +262,7 @@
       "otherLink" : "",
       "topics": ["Visual", "Audio","HCI"],
       "languages" : ["Java", "Processing", "SuperCollider"],
-      "image": "./src/images/Mobile.png",
+      "image": "Mobile.png",
       "description": [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
       ],
