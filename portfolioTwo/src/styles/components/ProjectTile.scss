@@ -12,6 +12,7 @@
 
   .tile, .tileBasic {
     padding: 1rem;
+    border-radius: $border-radius;
   }
 
   @media (min-width: 60rem){

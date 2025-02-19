@@ -16,20 +16,20 @@ const TopicPage = ({ groupedProjects}) => {
     return (
         <div>
           <div>
-          <TopicPageTitle3D/>
+          <h1 className="center title">{topicName}  Projects</h1>
           </div>
       {projects.map((project) => (
             <ProjectTile
-              key={project.title} // Unique key for each project
+              key={project.title} 
               title={project.title}
               projectType={project.projectType}
-              year={project.year || "Year not provided"} // Use year if available
+              year={project.year || "Year not provided"} 
               topics={project.topics}
               languages={project.languages}
               video={project.video}
               image={project.image} 
               description={project.description}
-              bgColor={project.bgColor || "default-color"} // Default color if none provided
+              bgColor={project.bgColor || "default-color"}
             />
           ))}
           <Link to="/">Back to Topics</Link>

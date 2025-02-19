@@ -60,11 +60,11 @@ function CarouselItem({ itemText, offset, numberOfItems, carouselAngle, setHover
                     <>
                         <Text3D size={0.3} font={interBoldFont} position={[0, 0.2, 0]}>
                             {words[0]}
-                            <meshStandardMaterial color={ hovered ? 'green' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
+                            <meshStandardMaterial color={ hovered ? 'blue' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
                             </Text3D>
                         <Text3D size={0.3} font={interBoldFont} position={[+0.0, -0.2, 0]}>
                             {words[1]}
-                            <meshStandardMaterial color={ hovered ? 'green' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
+                            <meshStandardMaterial color={ hovered ? 'blue' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
                             </Text3D>                   
                     </>
 
@@ -78,10 +78,10 @@ function CarouselItem({ itemText, offset, numberOfItems, carouselAngle, setHover
                     // bevelSize={0.01}
                     // bevelThickness={0.005}
                     // bevelOffset={0.02}
-                    // bevelSegments={1}                      //color={ hovered ? 'green' : [opacity, opacity, opacity]}
+                    // bevelSegments={1}                      //color={ hovered ? 'blue' : [opacity, opacity, opacity]}
                 >
                     {words[0]}
-                    <meshStandardMaterial color={ hovered ? 'green' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
+                    <meshStandardMaterial color={ hovered ? 'blue' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
                 </Text3D>
                 )}
             </Center>
@@ -151,10 +151,11 @@ const Carousel3D = () => {
             }}
             camera={{ position: [0, 0, 10], fov: 40 }} 
             shadows>
-                <ambientLight intensity={0.5}/>
-                <directionalLight color="green" position={[-1,0,25]} intensity={1} />
-                <directionalLight color="green" position={[1,0, 25]} intensity={1} />
-                <directionalLight color="white" position={[0,1, 25]} intensity={0.5} />
+                <ambientLight intensity={0.05}/>
+                <directionalLight color="pink" position={[-1,0,25]} intensity={1} />
+                <directionalLight color="purple" position={[1,0, 25]} intensity={1} />
+                <directionalLight color="white" position={[0,1, 5]} intensity={0.25} />
+                <directionalLight color="white" position={[0,-1, 5]} intensity={0.25} />
                 {/* <directionalLight position={[0,-2,10]} intensity={1} /> */}
                 <CarouselManager topics = {topics}/>
             </Canvas>

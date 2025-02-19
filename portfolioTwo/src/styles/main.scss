@@ -21,6 +21,7 @@
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-weight: 500;
     font-variation-settings: "wdth" 100; 
     color-scheme: light dark;
     background-color: $background-color;
@@ -28,8 +29,7 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    // display: flex;
-    // flex-direction: column;
+ 
       height: 90%;
   }
   
@@ -104,6 +104,7 @@
     max-height: 25rem;
     display: block;
     margin-inline: auto;
+    border-radius: $border-radius;
   }
   
   .imgSquare {
@@ -114,22 +115,20 @@
     aspect-ratio: 19 /6;
   }
   
-
+.text-box {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  // justify-content: space-between;
+}
   
   h1 {
     font-size: 3.2em;
     line-height: 1.1;
   }
 
-  li {
-  // font-size: 1rem;
-  // background-color: azure;
-  // color: $pink;
-  // border-radius: 1rem;
-  // padding: 0.5rem;
-  // display: flex;
-  // justify-content: center;
-}
+
 
 ul {
   list-style-type: none;
@@ -169,6 +168,7 @@ ul {
   }
 
   .bordered {
+    border-radius: $border-radius;
     box-shadow: inset 0 0 0 1px $accent-color;
     transition: box-shadow 0.2s ease-in-out;
   
@@ -181,9 +181,9 @@ ul {
     background-color: $primary-color;
     color: $background-color;
 
-    &:hover {
-     background-color: $primary-flip-color;
-    }
+    // &:hover {
+    //  background-color: $primary-flip-color;
+    // }
   }
 
   .text-primary-color-flip {

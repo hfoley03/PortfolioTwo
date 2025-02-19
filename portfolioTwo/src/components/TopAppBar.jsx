@@ -13,7 +13,7 @@ const TopAppBar = () => {
   return (
     <div className="header">
       <nav className="desktop-menu">
-        <Link to="/" className="app-name text-primary-color-flip">
+        <Link to="/" className="app-name">
           HDF
         </Link>
         <ul className={menuOpen ? 'menu open' : 'menu'}>

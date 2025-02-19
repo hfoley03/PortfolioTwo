@@ -5,10 +5,7 @@ import '/src/styles/components/ProjectTile.scss';
 import { Link } from 'react-router-dom';
 
 import GithubLogo from  '/src/assets/github-96.svg';
-import file50 from  '/src/assets/file-50.svg';
 import file100 from  '/src/assets/file-100.svg';
-
-
 
 import React, { useRef } from "react";
 
@@ -17,7 +14,7 @@ import React, { useRef } from "react";
 const ProjectTile = ({ title, projectType, year, topics, languages, video, image, description, bgColor }) => {
     return (
         <div className={`card-grid ${bgColor}`}> 
-            <div className="tile title-tile colour-primary-1">
+            <div className="tile colour-primary-1">
                 <h1>{title}</h1> 
                 <h2>{projectType}</h2>
                 <h2>{year}</h2>
@@ -49,7 +46,7 @@ const ProjectTile = ({ title, projectType, year, topics, languages, video, image
                 )}
             </div>
             <div className="tile colour-primary-2 bordered">
-                <h2>Topics:</h2> {/* Topics */}
+                <h2>Topics</h2>
                 <ul>
                     {topics.map((topic, index) => (
                         <li key={index}>
@@ -81,7 +78,7 @@ const ProjectTile = ({ title, projectType, year, topics, languages, video, image
                 } */}
             </div>
             <div className="tile colour-primary-2 bordered">
-                <h2>Description:</h2> {/* Description */}
+                <h2>Description</h2> {/* Description */}
                 <p>{description.join(" ")}</p> {/* Join description into a single paragraph */}
             </div>
         </div>
