@@ -2,7 +2,6 @@
 import React from 'react';
 import "/src/styles/pages/About.scss";
 import MouseSquare from '/src/components/MouseSquare';
-import profilePicture from '../images/profilepicture.png';
 import '/src/styles/main.scss';
 
 const About = () => {
@@ -26,7 +25,7 @@ const About = () => {
       </div>
       <div className='home-cols'>
         <div className="colour-primary-2 center">
-          <img src={profilePicture} alt="profilePicture"/>
+          <img src={`${import.meta.env.BASE_URL}images/profilepicture.png`} alt="pp"/>
         </div>
         <div className='text-box bordered'>
           <h1>Skills</h1>

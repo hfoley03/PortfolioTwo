@@ -1,8 +1,7 @@
 import React from 'react';
 import MouseSquare from '/src/components/MouseSquare';
 import { InstagramEmbed,LinkedInEmbed } from 'react-social-media-embed';
-import GithubLogo from  '/src/assets/githubWhite.svg';
-import LinkedInLogo from  '/src/assets/linkedinWhite.svg';
+
 
 
 const Contact = () => {
@@ -14,11 +13,11 @@ const Contact = () => {
           <h3 className='center'>hfoley03@gmail.com</h3>
 
           <a href="https://github.com/hfoley03" target="_blank" rel="noopener noreferrer">
-             <img src={GithubLogo} alt="Github logo" height={125}/>
+          <img src={`${import.meta.env.BASE_URL}svg/githubWhite.svg`} alt="linkedin" height={125}/>
           </a>
 
           <a href="https://www.linkedin.com/in/harry-foley-a63593b1/" target="_blank" rel="noopener noreferrer">
-             <img src={LinkedInLogo} alt="LinkedIn logo" height={125} />
+             <img src={`${import.meta.env.BASE_URL}svg/linkedinWhite.svg`} alt="linkedin" height={125}/>
           </a>
 
         </div>
