@@ -1,8 +1,9 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 
 function SpinningCube() {
   const mountRef = useRef(null);
+  const [rotationSpeed, setRotationSpeed] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const container = mountRef.current;
@@ -23,9 +24,23 @@ function SpinningCube() {
     light.position.set(5, 5, 5).normalize();
     scene.add(light);
 
+    let lastMousePosition = { x: 0, y: 0 };
+
+    const handleMouseMove = (event) => {
+      const deltaX = event.clientX - lastMousePosition.x;
+      const deltaY = event.clientY - lastMousePosition.y;
+
+      setRotationSpeed({
+        x: deltaY * 0.001, // Adjust sensitivity here
+        y: deltaX * 0.001,
+      });
+
+      lastMousePosition = { x: event.clientX, y: event.clientY };
+    };
+
     const animate = () => {
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
+      cube.rotation.x += rotationSpeed.x;
+      cube.rotation.y += rotationSpeed.y;
       renderer.render(scene, camera);
       requestAnimationFrame(animate);
     };
@@ -37,14 +52,16 @@ function SpinningCube() {
       camera.updateProjectionMatrix();
     };
 
+    window.addEventListener('mousemove', handleMouseMove);
     window.addEventListener('resize', handleResize);
 
     return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener('resize', handleResize);
       container.removeChild(renderer.domElement);
       renderer.dispose();
     };
-  }, []);
+  }, [rotationSpeed]);
 
   return <div ref={mountRef} style={{ width: '100%', height: '100%' }} />;
 }

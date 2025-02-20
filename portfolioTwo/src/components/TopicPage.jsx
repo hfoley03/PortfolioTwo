@@ -23,6 +23,8 @@ const TopicPage = ({ groupedProjects}) => {
               title={project.title}
               projectType={project.projectType}
               year={project.year || "Year not provided"} 
+              gitLink = {project.gitLink}
+              otherLink = { project.otherLink}
               topics={project.topics}
               languages={project.languages}
               video={project.video}

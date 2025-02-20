@@ -15,7 +15,6 @@ function TitleText({ titleString }) {
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
-    console.log(screenWidth);
     var letterSpace = 0.05;
     var fontSize = 2;
     if(screenWidth< 900){

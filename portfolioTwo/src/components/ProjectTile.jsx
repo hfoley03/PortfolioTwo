@@ -3,34 +3,30 @@ import '/src/styles/main.scss';
 
 import '/src/styles/components/ProjectTile.scss';
 import { Link } from 'react-router-dom';
-
-import GithubLogo from  '/src/assets/github-96.svg';
-import file100 from  '/src/assets/file-100.svg';
-
 import React, { useRef, process } from "react";
 
 
-const ProjectTile = ({ title, projectType, year, topics, languages, video, image, description, bgColor }) => {
-    console.log({image})
+const ProjectTile = ({ title, projectType, year, gitLink, otherLink, topics, languages, video, image, description, bgColor }) => {
     return (
         <div className={`card-grid ${bgColor}`}> 
             <div className="tile colour-primary-1">
                 <h1>{title}</h1> 
                 <h2>{projectType}</h2>
                 <h2>{year}</h2>
-                <h3> Links with icons </h3>
                 <div className='tile links-grid'>
-                    
-                    <img src={GithubLogo} alt="github logo" />
-                    <img src={file100} alt="file logo" />
-                    <p> Code Repository</p>
-                    <p> Thesis Document </p>
-
-
-
+                    {gitLink.length > 0 && (
+                        <a href={gitLink} target="_blank" rel="noopener noreferrer">
+                            <img src={`${import.meta.env.BASE_URL}svg/github-96.svg`} alt="github" height={125}/>
+                        </a>
+                    )}
+                    {otherLink.length > 0 && (
+                        <a href={otherLink} target="_blank" rel="noopener noreferrer">
+                            <img src={`${import.meta.env.BASE_URL}svg/file-100.svg`} alt="github" height={90} width={125}/>
+                        </a>
+                    )}
                 </div>
             </div>
-            <div className="tile colour-primary-2 grid-col-span-2">
+            <div className="tile tile-media colour-primary-2 grid-col-span-2">
                 {video ? ( // Render video or image depending on the data
                     <iframe 
                         src={video} 
@@ -46,6 +42,8 @@ const ProjectTile = ({ title, projectType, year, topics, languages, video, image
                 ) : (
                     <p>No video available</p>
                 )}
+            </div>
+            <div className="tile colour-primary-2">
             </div>
             <div className="tile colour-primary-2 bordered">
                 <h2>Topics</h2>
@@ -67,21 +65,11 @@ const ProjectTile = ({ title, projectType, year, topics, languages, video, image
                     ))}
                 </ul>
             </div>
-            <div className="tile colour-primary-2 bordered">
-                {/* {
-                 <Canvas>
-                <ambientLight intensity={0.5} />
-                <directionalLight color="white" position={[0,0,5]} intensity={2}/>
-                <mesh>
-                    <boxGeometry />
-                    <meshStandardMaterial />
-                </mesh>
-                </Canvas> 
-                } */}
-            </div>
-            <div className="tile colour-primary-2 bordered">
-                <h2>Description</h2> {/* Description */}
-                <p>{description.join(" ")}</p> {/* Join description into a single paragraph */}
+            <div className="tile tile-text bordered">
+                <h2>Description</h2>
+                {description.map((sentence, index) => (
+                    <p key={index}>{sentence}</p>
+                ))}            
             </div>
         </div>
     );

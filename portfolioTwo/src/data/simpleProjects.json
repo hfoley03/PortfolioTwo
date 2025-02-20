@@ -4,13 +4,16 @@
       "title": "Sound Shaping",
       "projectType": "MASTER'S THESIS",
       "year": "2024",
+      "gitLink" : "https://github.com/hfoley03/SoundShaping",
+      "otherLink" : "https://github.com/hfoley03/SoundShaping#:~:text=Have%20a%20read%3A-,Thesis,-Executive%20Summary",
       "topics": ["Augmented Reality", "HCI", "Audio", "Visual"],
       "languages" : ["C#", "Python", "Unity", "OSC"],
       "video": "https://www.youtube.com/embed/QRWjeqrhi9Y?si=yZgF6-dcdoohF0Xd",
       "description": [
-      "My current thesis at I3Lab in Music & Art Therapy Activity in Augmented Reality for people with neurodevelopmental conditions. The projects research questions focus on emotional regulation, sustained & selective attention, and engagement through performance.",
-      "Using the Hololens 2, users are able to draw in their environment in 3D, while also creating an abstract musical interface through their drawings. ",
-      "The project has been co-designed with Fraternità e Amicizia, an arts therapy centre in Milano. User Testing will take place at their three centres in July."
+      "Master's thesis at I3Lab, Milan. SoundShaping: Music & Art Therapy Activity in Augmented Reality for people with neurodevelopmental conditions.",
+      "The projects research questions focus on emotional regulation, sustained & selective attention, and engagement through performance.",
+      "Using the Hololens 2, users are able to draw in their environment in 3D, while also creating an abstract musical interface through their drawings.",
+      "The project has been co-designed with Fraternità e Amicizia, an arts therapy centre in Milan."
       ],
       "bgColor": "colour2"
     },
@@ -19,13 +22,15 @@
       "title": "Future Worlds",
       "projectType": "MUSEUM INSTALLATION",
       "year": "2024",
-      "topics": ["Audio", "Visual", "Graphics", "Creative Coding"],
+      "gitLink" : "https://github.com/hfoley03/Future_Worlds_3D",
+      "otherLink" : "",
+      "topics": ["Abstract Data", "Visual", "Graphics", "Creative Coding"],
       "languages" : ["C++", "Python", "Openframeworks" ],
       "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
       "description": [
-      "This project takes data from the World3 model and transforms it to audio visual representation to promote awareness of our control of our planet’s future. ",
+      "This project takes data from the World3 model and transforms it to audio visual representation to promote awareness of our control of our planet’s future.",
       "The user can select between three different possible outcomes for our planet and explore these through visiting different cities watching our planet blossom or decay.",
-      "Custom Cellulare Automata evolves the planet's landscape based on time series data from the model such as pollution, food, population"
+      "Custom Cellulare Automata evolves the planet's landscape based on time series data from the model such as pollution, food, population."
       ],
       "bgColor": "colour2"
     },
@@ -34,12 +39,14 @@
       "title": "Hunt",
       "projectType": "VIDEO GAME",
       "year": "2024",
+      "gitLink" : "https://github.com/hfoley03/HuntVulkanGame",
+      "otherLink" : "",
       "topics": ["Visual", "Graphics", "Creative Coding"],
       "languages" : ["C++", "Vulkan"],
       "image": "night_screen.jpeg",
       "description": [
       "3D animal hunting game in Vulkan. Custom shaders implementing Blinn-Phong, Oren-Nayar, Normal Mapping and Sky Box techniques",
-      "The goal of the game is to hunt all of the animals inside of the map in the time given. The user is free to roam around the map, trying to find them all and shooting at them with its rifle. Aiming can be done with or without a scope, and during the night a torch can be activated to improve the visibility"
+      "No game engine was used. Other features implemented include collision detection, shooting mechanics and flocking birds using boid swarms."
       ],
       "bgColor": "colour2"
     },
@@ -48,13 +55,15 @@
       "title": "Phone Sampler",
       "projectType": "MOBILE APP",
       "year": "2024",
-      "gitLink" : "",
+      "gitLink" : "https://github.com/hfoley03/PhoneSampler",
       "otherLink" : "",
       "topics": ["Mobile", "Audio", "Visual", "UX"],
-      "languages" : ["Kotlin"],
+      "languages" : ["Kotlin", "Jetpack Compose"],
       "image": "Mobile.png",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+        "Implemented through Kotlin and Jetpack Compose, PhoneSampler is an Android application that allows users to record audio from other apps in their phones.",
+        "Features implemented inlcude recording system audio, editing audio, playback, transport controls, sharing and FreeSound.org API to upload and download samples.",
+        "Full testing campaign: Functional, Usability, Integration."
       ],
       "bgColor": "colour2"
     },
@@ -63,13 +72,14 @@
       "title": "Anemone",
       "projectType": "WEBSITE",
       "year": "2024",
-      "gitLink" : "",
+      "gitLink" : "https://github.com/yan-2/Anemone",
       "otherLink" : "",
       "topics": ["Website", "HCI", "UX"],
       "languages" : ["Javascript", "Nuxt.js" ],
-      "image": "Mobile.png",
+      "image": "AnemoneHome.png",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+        "Hypermedia course project to implement a website for a Women's Rights Centre. Designed in Figma. Site implementation included both frontend and backend. Technologies used include Nuxt.js, Tailwind, Vercel and Supabase.",
+        "One of my contributions to the project was prompt engineering a conversational agent to act as a psychological counsellor using the OpenAI API"
       ],
       "bgColor": "colour2"
     },
@@ -81,10 +91,11 @@
       "gitLink" : "",
       "otherLink" : "",
       "topics": ["Hardware", "Audio", "MIDI"],
-      "languages" : ["C", "Puredata" ],
-      "image": "Mobile.png",
+      "languages" : ["C", "Puredata"],
+      "image": "fyp1.jpg",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+        "Digital Synthesizer concept that can grow with player's needs & budget. Modular design allowing the user to increase the number of notes that can be played simultaneously through the addition of modules.",
+        "The two Voice Modules act as individual monophonic synthesizers and a Central Console, which is used to combine multiple Voice Modules. Hardware is based on the Teensy microcontroller."
       ],
       "bgColor": "colour2"
     },
@@ -94,12 +105,13 @@
       "projectType": "MUSIC VISUALIZER",
       "year": "2024",
       "gitLink" : "",
-      "otherLink" : "",
-      "topics": ["Audio", "Visual", "Graphics", "Computer Vision", "Creative Coding"],
+      "otherLink" : "https://www.instagram.com/p/C2CfTjkI1oZ/",
+      "topics": [ "Visual", "Graphics", "Computer Vision", "Creative Coding"],
       "languages" : ["C+", "Openframeworks" ],
-      "image": "Mobile.png",
+      "video": "https://www.youtube.com/embed/0tSq_saOhnY?si=hxM0R92Bv1drp6Pa",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+        "Real time audio visual project to create promotional material for an album release. Relies on OpenCV for computer vision.",
+        "Audio reactivity impleneted through FFT."
       ],
       "bgColor": "colour2"
     },
@@ -112,9 +124,10 @@
       "otherLink" : "",
       "topics": ["Visual", "Creative Coding"],
       "languages" : ["C++", "Openframeworks"],
-      "image": "Mobile.png",
+      "video": "https://www.youtube.com/embed/D71MC-XWvCQ?si=l4jc8rEtn9-f7KCk",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+        "This is one of a number of experiments into real time webcam manipulation. Blocks of pixels retain a position on screen similar to where they are located in the input video, some noise is added to their position for effect.",
+        "Openframeworks projects like this are a great way to practice C++ and OOP as efficiency is key"
       ],
       "bgColor": "colour2"
     },
@@ -127,10 +140,12 @@
       "otherLink" : "",
       "topics": ["Creative Coding", "Audio", "Visual"],
       "languages" : ["C++", "Openframeworks", "OSC"],
-      "image": "Mobile.png",
+      "video": "https://www.youtube.com/embed/-vmMrIYvGL8?si=PU7TkQoNO9GWr9Vt",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
-      ],
+        "Generative audio visual experiment designed using Craig Reynolds 1986 approach to modelling swarm behaviour",
+        "OSC messages are sent from Open-Frameworks to Ableton when a circle collides with the edge of the frame of the video",
+        "The message contains velocity and direction information which is then mapped to volume and panning of the musical note. Normally with AV pieces the visual element is controlled by the audio, reversing this chain leads to interesting and organic results"
+        ],
       "bgColor": "colour2"
     },
     {
@@ -142,10 +157,12 @@
       "otherLink" : "",
       "topics": ["Creative Coding", "Audio", "Visual"],
       "languages" : ["C++", "Openframeworks", "OSC"],
-      "image": "Mobile.png",
+      "video": "https://www.youtube.com/embed/CpNsquvnUjo?si=wfO5seP6rIOXAmAf&start=70&vq=hd1080",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
-      ],
+        "Generative audio visual experiment designed using Craig Reynolds 1986 approach to modelling swarm behaviour",
+        "OSC messages are sent from Open-Frameworks to Ableton when a circle collides with the edge of the frame of the video",
+        "The message contains velocity and direction information which is then mapped to volume and panning of the musical note. Normally with AV pieces the visual element is controlled by the audio, reversing this chain leads to interesting and organic results"
+       ],
       "bgColor": "colour2"
     },
     {
@@ -154,27 +171,29 @@
       "projectType": "MUSIC VISUALIZER",
       "year": "2024",
       "gitLink" : "",
-      "otherLink" : "",
+      "otherLink" : "https://www.instagram.com/reel/C3VUyltIy_s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       "topics": ["Creative Coding", "Audio", "Visual"],
       "languages" : ["C++", "Openframeworks"],
-      "image": "Mobile.png",
+      "video": "https://www.youtube.com/embed/2flFLtcKpk4?si=tH1okfeBUSXmZ06O",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
-      ],
+        "Music visualizer for Valentine's DJ Mix. I researched various trigonometric equations to find one suitable for a love heart. Each heart on the screen corresponds to a frequency band.",
+        "I wanted to give the impression of the hearts being made out of waveforms so I added Perlin noise to the points of the polylines and modulated the variables of the noise through the frequency band amplitudes."
+        ],
       "bgColor": "colour2"
     },
     {
       "id": 12,
-      "title": "Swarm Animation",
+      "title": "NTS Radio Swarm Animation",
       "projectType": "MUSIC VISUALIZER",
       "year": "2024",
-      "gitLink" : "",
+      "gitLink" : "https://github.com/hfoley03/ambientSwarmDrone1",
       "otherLink" : "",
       "topics": ["Creative Coding", "Audio", "Visual"],
       "languages" : ["C++", "Openframeworks"],
-      "image": "Mobile.png",
+      "video": "https://www.youtube.com/embed/ueWlz9tal2A?si=Jfm6kioTzApoB6dU",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+        "Music Visualiser for a 1 hour mix of music on the theme of dreams for NTS Radio. The real time audio visual piece allows a user to manipulate the graphics live.",
+        "Techniques used include  Craig Reynold's Boid Swarms and FFT."
       ],
       "bgColor": "colour2"
     },
@@ -185,27 +204,13 @@
       "year": "2023",
       "gitLink" : "",
       "otherLink" : "",
-      "topics": ["Audio", "Visual", "Graphics", "Creative Coding"],
+      "topics": [ "Visual", "Graphics", "Creative Coding"],
       "languages" : ["Python"],
-      "image": "Mobile.png",
+      "image": "forreal.png",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
-      ],
-      "bgColor": "colour2"
-    },
-    {
-      "id": 14,
-      "title": "Instagram Eyes",
-      "projectType": "CREATIVE EXPERIMENT",
-      "year": "2023",
-      "gitLink" : "",
-      "otherLink" : "",
-      "topics": ["Visual", "Creative Coding"],
-      "languages" : ["Python" ],
-      "image": "Mobile.png",
-      "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
-      ],
+        "The artwork was created using a Self-Similarity Matrix, a musical analysis technique. An SSM works by comparing each element of a feature sequence with all other elements, recurring patterns become visible along the diagonal of the picture",
+        "This is useful for identify the musical structure of a piece, helping to identify choruses and verses for example"
+        ],
       "bgColor": "colour2"
     },
     {
@@ -213,13 +218,15 @@
       "title": "SERG",
       "projectType": "WEB APP",
       "year": "2022",
-      "gitLink" : "",
-      "otherLink" : "",
-      "topics": ["Visual", "Audio", "Website", "MIDI", "HCI"],
+      "gitLink" : "https://github.com/hfoley03/SERG-Shifting-Euclidean-Rhythm-Generator",
+      "otherLink" : "https://hfoley03.github.io/SERG-Shifting-Euclidean-Rhythm-Generator/",
+      "topics": ["Audio", "Website", "MIDI", "HCI"],
       "languages" : ["Javascript", "P5.js"],
-      "image": "Mobile.png",
+      "image": "serg.png",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+        "Shifting Euclidean Rhythm Generator (SERG) is a music composition tool inspired by Steve Reich's concept of phase shifting rhythms.",
+        "It uses Godfried Toussaint's Euclidean Rhythms to create unique musical beats that change over time as they shift in and out of phase.",
+        "SERG has two sets of phase shifting rhythms that are played in sync, transport controls, control over musical key and synth/drum voices"      
       ],
       "bgColor": "colour2"
     },
@@ -230,12 +237,14 @@
       "year": "2023",
       "gitLink" : "",
       "otherLink" : "",
-      "topics": ["HCI", "UX", "Audio", "Hardware", "Augmented Reality"],
+      "topics": ["HCI", "UX", "Audio", "Augmented Reality"],
       "languages" : ["C#", "Python", "Unity"],
-      "image": "Mobile.png",
+      "video": "https://www.youtube.com/embed/k-XbqQCHKRA?si=uTWRQyVEVfkGkxG5",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
-      ],
+        "MusicTraces is a post-doc research project at I3Lab that I became involved with during a course called Advanced User Interfaces. The project is based in the MagicRoom, a multi sensory smart environment that includes two projectors, Kinect camera and smart objects.",
+        "The program is used by two young adults with learning difficulties. My team was given the challenge of finding a way to allow users with no musical experience control over the music element of the experience.",
+        "The solution I designed leveraged variable length Markov Chains. We took a dataset of chords for 50 pop songs in the key of C Major and built up a stochastic system to predict the next chord in a sequence of length 1-5 chords. The system keeps track of the previous chords played and then exposes the two most likely next options to the users. The users can select the next chord by both standing in one of two circles on the floor. The solution first has the advantage of always keeping the progression musical while allowing the users control, and secondly encourages collaboration between users as well as promoting close body proximity, something that the target users would in general avoid."
+        ],
       "bgColor": "colour2"
     },
     {
@@ -243,13 +252,15 @@
       "title": "M-RAM",
       "projectType": "SMART HOME",
       "year": "2023",
-      "gitLink" : "",
+      "gitLink" : "https://github.com/hfoley03/Musical-Room-Ambience-Monitor",
       "otherLink" : "",
       "topics": ["Visual", "Audio", "Hardware", "HCI"],
       "languages" : ["Java", "Processing", "SuperCollider"],
-      "image": "Mobile.png",
+      "image": "MRAM.png",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
+        "M-RAM, Musical Room Ambience Monitor, is designed to provide generative ambient music and sounds for a user’s bedroom.",
+        "M-RAM uses the time of day, ambient light and motion to alter the sound and music that is played. It is primarily based in SuperCollider and also uses Arduino for data acquisition and Processing for GUI",
+        "The project was inspired by the concept behind Brian Eno’s pioneering album, ‘Ambient 1: Music for Airports’, where he played with the idea that an indoor space should have a soundtrack that is suited to it. He felt that indoor environments should have music that \"induce calm and a space to think\" while remaining \"as ignorable as it is interesting\""
       ],
       "bgColor": "colour2"
     },
@@ -258,14 +269,15 @@
       "title": "Distortion",
       "projectType": "DIDACTIC TOOL",
       "year": "2023",
-      "gitLink" : "",
+      "gitLink" : "https://github.com/hfoley03/SuperCollider-Didactic-Tool-for-Distortion-Audio-Effects",
       "otherLink" : "",
       "topics": ["Visual", "Audio","HCI"],
       "languages" : ["Java", "Processing", "SuperCollider"],
-      "image": "Mobile.png",
+      "image": "Teach_Mode.png",
       "description": [
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur ac habitasse interdum vel aenean viverra elit ipsum justo laoreet neque inceptos sollicitudin pellentesque dictum gravida blandit ligula dapibus inceptos netus blandit integer dignissim gravida dis praesent pharetra rhoncus neque curae adipiscing duis tortor adipiscing nibh rhoncus nunc imperdiet faucibus amet nullam quam leo sit accumsan elit condimentum penatibus justo interdum senectus fames a ullamcorper lobortis purus elit donec quam interdum litora purus maecenas aptent ante ex justo aliquam vivamus orci eu vestibulum ante et habitasse gravida facilisis litora neque penatibus ut."
-      ],
+        "The project brief was to implement a didactic tool in SuperCollider to learn and/or teach the audio effect of distortion. The application provides a digital interactive learning experience",
+        "Created a tool that can be used in two modes, Learn and Teach. Learn mode to be used by a novice student to learn the basic principles of the audio effect.Teach mode to be used by a Teacher to demonstrate a greater number of more technical aspects of distortion" 
+           ],
       "bgColor": "colour2"
     }
  

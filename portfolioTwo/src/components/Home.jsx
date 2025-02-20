@@ -12,7 +12,7 @@ const Home = ({groupedProjects}) => {
         <div className ="content-grid">
           <div className="home-grid">
             <div className='home-cols'>
-              <div className='bordered center text-box'>
+              <div className='center text-box tile colour-primary-1'>
                 <h1 className='center'>HARRY</h1>
                 <h1 className='center'>DENIS</h1>
                 <h1 className='center'>FOLEY</h1>

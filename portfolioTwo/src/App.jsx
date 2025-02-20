@@ -28,7 +28,7 @@ const App = () => {
 
 const AppContent = ({ groupedProjects }) => {
   const location = useLocation();
-  const isTopicPage = location.pathname.includes("topic");
+  const isTopicPage = location.pathname.includes("contact");
 
   return (
     <div className={`App ${isTopicPage ? "topic-page-layout" : ""}`}>
