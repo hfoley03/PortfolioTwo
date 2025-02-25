@@ -6,7 +6,7 @@
       "year": "2024",
       "gitLink" : "https://github.com/hfoley03/SoundShaping",
       "otherLink" : "https://github.com/hfoley03/SoundShaping#:~:text=Have%20a%20read%3A-,Thesis,-Executive%20Summary",
-      "topics": ["Augmented Reality", "HCI", "Audio", "Visual"],
+      "topics": ["Augmented Reality", "HCI", "Audio", "Visual", "Immersive"],
       "languages" : ["C#", "Python", "Unity", "OSC"],
       "video": "https://www.youtube.com/embed/QRWjeqrhi9Y?si=yZgF6-dcdoohF0Xd",
       "description": [
@@ -24,7 +24,7 @@
       "year": "2024",
       "gitLink" : "https://github.com/hfoley03/Future_Worlds_3D",
       "otherLink" : "",
-      "topics": ["Abstract Data", "Visual", "Graphics", "Creative Coding"],
+      "topics": ["Immersive", "Visual", "Graphics", "Creative Coding"],
       "languages" : ["C++", "Python", "Openframeworks" ],
       "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
       "description": [
@@ -237,7 +237,7 @@
       "year": "2023",
       "gitLink" : "",
       "otherLink" : "",
-      "topics": ["HCI", "UX", "Audio", "Augmented Reality"],
+      "topics": ["HCI", "Immersive", "Audio", "Augmented Reality"],
       "languages" : ["C#", "Python", "Unity"],
       "video": "https://www.youtube.com/embed/k-XbqQCHKRA?si=uTWRQyVEVfkGkxG5",
       "description": [

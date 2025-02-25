@@ -172,7 +172,7 @@ const Carousel3D = () => {
         { topic: "MIDI"},
         { topic: "HCI"},
         { topic: "Hardware"},
-        { topic: "UX"},
+        { topic: "Immersive"},
         { topic: "Website" },
         { topic: "Computer Vision"},
     ];
