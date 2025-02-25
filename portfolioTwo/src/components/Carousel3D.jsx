@@ -51,8 +51,7 @@ function CarouselItem({ itemText, offset, numberOfItems, carouselAngle, setHover
                     }}
                     >
                 <boxGeometry args={[3, 1, 0.5]} />
-                <meshBasicMaterial transparent opacity={0.0} color={'grey'}/>
-                {/* <meshPhongMaterial shininess={100}/> */}
+                <meshBasicMaterial transparent opacity={0} color={'pink'}/>
                 </mesh>
 
             <Center ref={textRef} position={position} rotateY={Math.PI}>
@@ -74,11 +73,6 @@ function CarouselItem({ itemText, offset, numberOfItems, carouselAngle, setHover
                     size={0.3} 
                     font={interBoldFont}
                     curveSegments={16}
-                    // bevelEnabled
-                    // bevelSize={0.01}
-                    // bevelThickness={0.005}
-                    // bevelOffset={0.02}
-                    // bevelSegments={1}                      //color={ hovered ? 'blue' : [opacity, opacity, opacity]}
                 >
                     {words[0]}
                     <meshStandardMaterial color={ hovered ? 'blue' : [opacity, opacity, opacity]} metalness={0} roughness={0.2} />
@@ -92,13 +86,34 @@ function CarouselItem({ itemText, offset, numberOfItems, carouselAngle, setHover
 function CarouselManager( {topics} ){
     const [carouselAngle, setCarouselAngle] = useState(0); 
     const [isHovered, setIsHovered] = useState(false);
+    const { mouse } = useThree();
+    var maxSpeed = 0.02;
+    var speedControl = 0.1;
 
     useFrame(() => {
-            setCarouselAngle((prev) => prev + 0.002); 
+
+
+
+            if(mouse.y < 0.05 && mouse.y > -0.05){
+                speedControl = 0.0;
+            }
+            else if (mouse.x < -0.9 || mouse.x > 0.9  ){
+                speedControl = 0.1;
+            } 
+            else {
+                speedControl = -1*mouse.y;
+            }
+
+            if(mouse.x == 0){
+                speedControl = 0.05;
+            }
+
+            setCarouselAngle((prev) => prev + maxSpeed * speedControl); 
         
     });
 
     return (
+
         <>
             {topics.map(({topic}, index) => (
                 <CarouselItem
@@ -113,6 +128,24 @@ function CarouselManager( {topics} ){
         </>
     );
 }
+
+function MovingSphere() {
+    const meshRef = useRef();
+    const { mouse } = useThree();
+  
+    useFrame(() => {
+      meshRef.current.position.x = mouse.x * 5;
+      meshRef.current.position.y = mouse.y * 5;
+    //   console.log(mouse.y);
+    });
+  
+    return (
+      <mesh ref={meshRef}>
+        <sphereGeometry args={[0.2, 32, 32]} />
+        <meshStandardMaterial color="red" />
+      </mesh>
+    );
+  }
 
 
 
@@ -156,8 +189,9 @@ const Carousel3D = () => {
                 <directionalLight color="purple" position={[1,0, 25]} intensity={1} />
                 <directionalLight color="white" position={[0,1, 5]} intensity={0.25} />
                 <directionalLight color="white" position={[0,-1, 5]} intensity={0.25} />
-                {/* <directionalLight position={[0,-2,10]} intensity={1} /> */}
+                <directionalLight position={[0,-2,10]} intensity={1} />
                 <CarouselManager topics = {topics}/>
+                {/* <MovingSphere/> */}
             </Canvas>
         </div>
     );

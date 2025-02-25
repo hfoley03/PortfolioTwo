@@ -9,7 +9,8 @@ import React, { useRef, process } from "react";
 const ProjectTile = ({ title, projectType, year, gitLink, otherLink, topics, languages, video, image, description, bgColor }) => {
     return (
         <div className={`card-grid ${bgColor}`}> 
-            <div className="tile colour-primary-1">
+            <div className="special-tile">
+                <div className='inner-tile colour-primary-1'>
                 <h1>{title}</h1> 
                 <h2>{projectType}</h2>
                 <h2>{year}</h2>
@@ -24,6 +25,7 @@ const ProjectTile = ({ title, projectType, year, gitLink, otherLink, topics, lan
                             <img src={`${import.meta.env.BASE_URL}svg/file-100.svg`} alt="github" height={90} width={125}/>
                         </a>
                     )}
+                </div>
                 </div>
             </div>
             <div className="tile tile-media colour-primary-2 grid-col-span-2">

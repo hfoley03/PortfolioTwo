@@ -25,7 +25,7 @@
 .app-name {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #333;
+  color: #000000;
   background-color: $pink;
   border-radius: $border-radius;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -48,7 +48,7 @@
 .menu li {
   font-size: 1rem;
   background-color: $pink;
-  color: #333;
+  color: #000000;
   border-radius: $border-radius;
   padding: 0.5rem;
   display: flex;
@@ -65,7 +65,7 @@
 .menu a {
   text-decoration: none;
   transition: color 0.3s ease;
-  color: #333;
+  color: #000000;
 }
 
 .menu a:hover{
