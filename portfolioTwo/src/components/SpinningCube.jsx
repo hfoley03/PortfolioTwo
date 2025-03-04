@@ -31,7 +31,7 @@ function SpinningCube() {
       const deltaY = event.clientY - lastMousePosition.y;
 
       setRotationSpeed({
-        x: deltaY * 0.001, // Adjust sensitivity here
+        x: deltaY * 0.001, 
         y: deltaX * 0.001,
       });
 

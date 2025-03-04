@@ -20,7 +20,6 @@ const App = () => {
   return (
     <Router>
       <TopAppBar />
-      {/* Move useLocation inside the Router */}
       <AppContent groupedProjects={groupedProjects} />
     </Router>
   );

@@ -15,7 +15,7 @@ function TopicSelector({topic, ...props}) {
     const {width, height} = size;
 
     const aspect = width / height;
-    const cubeWidth = 1; // Adjust based on your 3D scene units
+    const cubeWidth = 1;
     const cubeHeight = cubeWidth / aspect;
 
     useFrame((state, delta) => {

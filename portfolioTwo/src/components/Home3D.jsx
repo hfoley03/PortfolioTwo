@@ -103,7 +103,6 @@ function TopicSelector({ topic, initialPosition }) {
 
     return (
         <group>
-            {/* Invisible bounding box */}
             <mesh ref={boxRef} position={initialPosition} onClick={handleClick}
                 onPointerOver={() => setHover(true)}
                 onPointerOut={() => setHover(false)}>
@@ -111,7 +110,6 @@ function TopicSelector({ topic, initialPosition }) {
                 <meshBasicMaterial transparent opacity={0} />
             </mesh>
             
-            {/* 3D Text */}
             <Center ref={textRef} position={initialPosition}>
                 <Text3D 
                     letterSpacing={0.0} 

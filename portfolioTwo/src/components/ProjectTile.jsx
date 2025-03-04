@@ -29,7 +29,7 @@ const ProjectTile = ({ title, projectType, year, gitLink, otherLink, topics, lan
                 </div>
             </div>
             <div className="tile tile-media colour-primary-2 grid-col-span-2">
-                {video ? ( // Render video or image depending on the data
+                {video ? ( 
                     <iframe 
                         src={video} 
                         title={title} 
